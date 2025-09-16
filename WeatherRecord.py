@@ -47,7 +47,7 @@ class WeatherDataStorage:
 
     # Step 3: Develop row-major and column-major access methods
     def rowMajorAccess(self):
-        print("\nAccessing data in row-major order:")
+        print("\ndata in row-major order:")
         for row in self.data:
             print(row)
 
@@ -96,4 +96,5 @@ if __name__ == "__main__":
     weather_system.rowMajorAccess()
     weather_system.columnMajorAccess()
     weather_system.handleSparseData()
+
     weather_system.analyzeComplexity()
